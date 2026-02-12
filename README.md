@@ -1,26 +1,32 @@
-# README
+# CRUD App - Rails API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## API Endpoints
 
-Things you may want to cover:
+### Users
+- `GET /users` - List all users
+- `POST /users` - Create a new user
+- `GET /users/:id` - Get a specific user
+- `PATCH /users/:id` - Update a user
+- `DELETE /users/:id` - Delete a user
 
-* Ruby version
+## API Testing Screenshots
 
-* System dependencies
+### Screenshot 1
+![Screenshot 1](postman_ss/Screenshot%20from%202026-02-12%2017-47-39.png)
 
-* Configuration
+### Screenshot 2
+![Screenshot 2](postman_ss/Screenshot%20from%202026-02-12%2017-47-48.png)
 
-* Database creation
+### Screenshot 3
+![Screenshot 3](postman_ss/Screenshot%20from%202026-02-12%2017-48-00.png)
 
-* Database initialization
+### Screenshot 4
+![Screenshot 4](postman_ss/Screenshot%20from%202026-02-12%2017-48-10.png)
 
-* How to run the test suite
+## Setup & Installation
 
-* Services (job queues, cache servers, search engines, etc.)
+1. Clone the repository
+2. Install dependencies: `bundle install`
+3. Setup the database: `rails db:migrate`
+4. Start the server: `rails server`
 
-* Deployment instructions
-
-* ...
-# RoR_usercrud
-# RoR_usercrud
